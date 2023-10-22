@@ -1,10 +1,11 @@
+/* 
 package input;
 
 import java.util.Scanner;
 
 import game_selection.Easy;
 
-public class Input {
+public class Input implements game_selection.Easy{
   Scanner scanner = new Scanner(System.in);
 
   public void welcome(){
@@ -31,3 +32,4 @@ public class Input {
     int input_number = scanner.nextInt();
   }
 }
+*/
