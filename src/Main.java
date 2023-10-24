@@ -5,8 +5,11 @@ allowing an unlimited number of guesses, or give the user a set number of guesse
 Number guessing games involve some Java programming basics like accepting inputs from the user, creating classes, and using conditional statements. 
 GeeksforGeeks offers a number guessing game walkthrough that can help you get started. */
 
+import menu.Menu;
+
 public class Main {
   public static void main(String args[]){
-    
+    Menu menu = new Menu();
+    menu.Welcome(); //call the function in the Menu file
   }
 }
